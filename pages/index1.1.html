@@ -12,33 +12,8 @@
 </head>
 <body>
     <div class="glow-bg"></div>
-    
-    <nav class="top-nav glass">
-        <div class="nav-left">
-            <button class="nav-btn" title="Menu"><i data-lucide="menu"></i></button>
-            <button class="nav-link active">Home</button>
-            <button class="nav-link">Images</button>
-            <button class="nav-link">Save</button>
-            <button class="nav-link">About</button>
-        </div>
-        
-        <div class="search-container">
-            <div class="search-bar neumorphic-inner">
-                <i data-lucide="search" class="search-icon"></i>
-                <input type="text" placeholder="Search parameters...">
-                <i data-lucide="mic" class="mic-icon"></i>
-                <i data-lucide="camera" class="cam-icon"></i>
-            </div>
-        </div>
 
-        <div class="nav-right">
-            <button class="nav-btn" title="Account"><i data-lucide="user"></i></button>
-            <div class="profile-section">
-                <div class="profile-avatar neumorphic"></div>
-                <span class="profile-name">ADMIN_USER</span>
-            </div>
-        </div>
-    </nav>
+    <!-- Navbar removed -->
 
     <main class="dashboard-container">
         <header class="hero-section">
@@ -69,6 +44,71 @@
 
         <section class="chapter-content">
             <div class="section-grid">
+
+                <!-- Split chapter into separate topic cards -->
+
+                <div class="glass-card full-width" data-reveal>
+                    <h2>Overview</h2>
+                    <p class="subtitle">Automation uses sensors, controllers, and small programs to make devices act intelligently and without constant human input — saving energy and improving convenience.</p>
+                </div>
+
+                <div class="neumorphic-card" data-reveal>
+                    <div class="card-tag">What is Automation?</div>
+                    <p>Automation is the process of making things operate automatically using circuits and programs, without constant human intervention. It transforms manual tasks into efficient, self-regulating systems.</p>
+                </div>
+
+                <div class="glass-card" data-reveal>
+                    <div class="card-tag">Everyday Examples</div>
+                    <ul>
+                        <li>Smart classrooms: Motion sensors switch off lights and fans when rooms are empty.</li>
+                        <li>Garden irrigation: Moisture sensors trigger pumps only when soil is dry.</li>
+                        <li>Vacuum robots: Scheduled cleaning and obstacle avoidance.</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card" data-reveal>
+                    <div class="card-tag">Case Study: Faro Barcelona</div>
+                    <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap;">
+                        <div style="flex:1;min-width:260px;">
+                            <p>Ceiling fans in schools using automated control systems to optimize airflow and energy consumption based on occupancy. <a href="https://faro.es/en/explore/stories/faro-barcelona-pupils-in-schools/" target="_blank" rel="noopener">Read more</a> — <a href="https://hs-8901683.f.hubspotemail.net/hubfs/8901683/Ebook/Ventiladores%20escuelas/Ventiladores-de-techo-Faro-Barcelona-en-escuelas-en.pdf?utm_campaign=DESCARGA%20DE%20CONTENIDO&amp;utm_medium=email&amp;_hsenc=p2ANqtz-_s8XSDDZFiB_sFO0IAyrrnkyJOmsppuRpGonvFUw6eeIWwnBPHPijQkfBzFaQZ27wi0uRX77OnoWB5N9FwK5TG7k-vzw&amp;_hsmi=269025132&amp;utm_content=269025132&amp;utm_source=hs_automation" target="_blank" rel="noopener">Case PDF</a></p>
+                        </div>
+                        <div style="width:320px;">
+                            <img src="https://login.skillizee.io/s/articles/69982e8ea219110bf35e24fe/images/image-20260220153748-7.png" alt="Faro Barcelona" style="width:100%;height:auto;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.6);" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card full-width" data-reveal>
+                    <div class="card-tag">Watch — Videos</div>
+                    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;">
+                        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;">
+                            <iframe loading="lazy" src="https://www.youtube.com/embed/U7kHR7x1Zm8" title="Industrial automation basics" style="position:absolute;left:0;top:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
+                        </div>
+                        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;">
+                            <iframe loading="lazy" src="https://www.youtube.com/embed/172cIvPUDi4" title="Intro to automation" style="position:absolute;left:0;top:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card full-width" data-reveal>
+                    <div class="card-tag">Interactive 3D</div>
+                    <p>Explore a 3D Smart Home Arduino model:</p>
+                    <div style="width:100%;max-width:1000px;border-radius:8px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,0.6);">
+                        <iframe loading="lazy" title="Smart Home - arduino" frameborder="0" src="https://sketchfab.com/3d-models/smart-home-arduino-99d47f5dd8164ec58cf9100b4ca494d3/embed" style="width:100%;height:480px;border:0" allow="autoplay; fullscreen; xr-spatial-tracking"></iframe>
+                    </div>
+                </div>
+
+                <div class="glass-card" data-reveal>
+                    <div class="card-tag">Automation in Nature & the Human Body</div>
+                    <p>Nature and the human body demonstrate automation: heartbeat, breathing, and the water cycle all operate automatically using signals and feedback loops.</p>
+                    <img src="https://login.skillizee.io/s/articles/69982e8ea219110bf35e24fe/images/image-20260220153748-11.jpeg" alt="Human body automation" style="width:100%;max-width:480px;height:auto;margin-top:0.5rem;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.6);" />
+                </div>
+
+                <div class="glass-card fact-card cyan-glow" data-reveal>
+                    <h3>Fun Fact</h3>
+                    <p>Automation can save up to <strong>30%</strong> on electricity bills in schools by preventing lights and fans from being left on accidentally.</p>
+                </div>
+
                 <!-- Definition Card -->
                 <div class="glass-card definition-card" data-reveal>
                     <div class="card-tag">DEFINITION</div>
@@ -160,19 +200,13 @@
         </section>
     </main>
 
-    <footer class="bottom-nav glass">
-        <div class="footer-links">
-            <button class="footer-link"><i data-lucide="home"></i></button>
-            <button class="footer-link"><i data-lucide="layers"></i></button>
-            <button class="footer-link"><i data-lucide="settings"></i></button>
-            <button class="footer-link"><i data-lucide="help-circle"></i></button>
-        </div>
-        <div class="footer-actions">
-            <button class="btn-next">NEXT CHAPTER <i data-lucide="arrow-right"></i></button>
+    <footer class="site-footer glass" role="contentinfo">
+        <div>
+            <span>© 2026 <a href="https://skillizee.io" target="_blank" rel="noopener">Skillizee</a></span>
+            <small>Course: Home Automation</small>
         </div>
     </footer>
 
     <script src="../script.js"></script>
 </body>
 </html>
-

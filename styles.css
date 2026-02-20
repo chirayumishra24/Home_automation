@@ -1,4 +1,3 @@
-/* --- DESIGN SYSTEM TOKENS --- */
 :root {
     /* Color Palette - Sci-fi Teal/Aqua */
     --bg-dark: #001214;
@@ -203,11 +202,7 @@ h1, h2, h3, h4, .nav-link, .btn-primary {
     background: linear-gradient(135deg, var(--teal-mid), var(--teal-dark));
 }
 
-.profile-name {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--teal-primary);
-}
+/* Navigation styles removed (navbar removed from markup) */
 
 /* --- HERO SECTION --- */
 .dashboard-container {
@@ -407,63 +402,24 @@ h1, h2, h3, h4, .nav-link, .btn-primary {
     font-size: 0.8rem;
 }
 
-/* --- FOOTER NAV --- */
-.bottom-nav {
-    position: fixed;
-    bottom: 1.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    max-width: 800px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1.5rem;
-    border-radius: 30px;
-    z-index: 1000;
+/* --- FOOTER --- */
+.site-footer {
+    position: relative;
+    padding: 1rem 0;
+    text-align: center;
+    color: #9fbdbd;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255,255,255,0.03);
+    margin-top: 2rem;
 }
-
-.footer-links {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.footer-link {
-    background: none;
-    border: none;
-    color: #94adad;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.footer-link:hover {
+.site-footer a {
     color: var(--teal-primary);
-    background: rgba(255, 255, 255, 0.05);
+    text-decoration: none;
 }
-
-.btn-next {
-    background: var(--teal-primary);
-    color: var(--bg-dark);
-    border: none;
-    padding: 0.6rem 1.5rem;
-    border-radius: 20px;
-    font-family: 'Orbitron';
-    font-weight: 700;
-    font-size: 0.75rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: 0.3s;
-}
-
-.btn-next:hover {
-    box-shadow: 0 0 20px var(--cyan-glow);
-    transform: translateX(5px);
+.site-footer small {
+    display: block;
+    color: #7f9b9b;
+    margin-top: 0.25rem;
 }
 
 /* --- REVEAL ANIMATIONS --- */

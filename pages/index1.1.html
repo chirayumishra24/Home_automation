@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Automation Concepts | Space-Tech Interface</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons for futuristic icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    
+    <nav class="top-nav glass">
+        <div class="nav-left">
+            <button class="nav-btn" title="Menu"><i data-lucide="menu"></i></button>
+            <button class="nav-link active">Home</button>
+            <button class="nav-link">Images</button>
+            <button class="nav-link">Save</button>
+            <button class="nav-link">About</button>
+        </div>
+        
+        <div class="search-container">
+            <div class="search-bar neumorphic-inner">
+                <i data-lucide="search" class="search-icon"></i>
+                <input type="text" placeholder="Search parameters...">
+                <i data-lucide="mic" class="mic-icon"></i>
+                <i data-lucide="camera" class="cam-icon"></i>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <button class="nav-btn" title="Account"><i data-lucide="user"></i></button>
+            <div class="profile-section">
+                <div class="profile-avatar neumorphic"></div>
+                <span class="profile-name">ADMIN_USER</span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="dashboard-container">
+        <header class="hero-section">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="UNDERSTANDING AUTOMATION">UNDERSTANDING AUTOMATION</h1>
+                <p class="subtitle">Exploring the future of self-regulating systems and smart technology.</p>
+                <div class="hero-actions">
+                    <button class="btn-primary futuristic-btn">GET STARTED <i data-lucide="arrow-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="floating-cards">
+                <div class="glass-card stat-card float-anim">
+                    <div class="card-icon"><i data-lucide="cpu"></i></div>
+                    <div class="card-info">
+                        <h3>Chapter 1.1</h3>
+                        <p>Core Concepts</p>
+                    </div>
+                </div>
+                <div class="glass-card cta-card float-anim-delayed">
+                    <p>Status: <span class="pulse">Active Monitoring</span></p>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="chapter-content">
+            <div class="section-grid">
+                <!-- Definition Card -->
+                <div class="glass-card definition-card" data-reveal>
+                    <div class="card-tag">DEFINITION</div>
+                    <h2>What is automation?</h2>
+                    <p>Automation is the process of making things operate automatically using circuits and programs, without constant human intervention. It transforms manual tasks into efficient, self-regulating systems.</p>
+                </div>
+
+                <!-- Explanation Card -->
+                <div class="neumorphic-card explanation-card" data-reveal>
+                    <div class="card-tag">OVERVIEW</div>
+                    <p>Automation means using technology to control everyday devices automatically. Instead of switching things on and off by hand, automation uses <strong>sensors, controllers, and simple computer programs</strong> to run these tasks independently. This helps save energy, reduce costs, and make life easier.</p>
+                </div>
+
+                <!-- Examples Section -->
+                <div class="glass-card full-width" data-reveal>
+                    <div class="card-tag">EVERYDAY EXAMPLES</div>
+                    <div class="concept-grid">
+                        <div class="concept-item">
+                            <i data-lucide="lightbulb"></i>
+                            <h4>Smart Classrooms</h4>
+                            <p>An automated system with a motion sensor can turn off lights and fans when no movement is detected, preventing energy waste.</p>
+                        </div>
+                        <div class="concept-item">
+                            <i data-lucide="droplets"></i>
+                            <h4>Garden Irrigation</h4>
+                            <p>Moisture sensors detect dry soil and activate water pumps, conserving water by watering only when needed.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fun Fact 1 -->
+                <div class="glass-card fact-card cyan-glow" data-reveal>
+                    <div class="card-icon"><i data-lucide="zap"></i></div>
+                    <h3>Did you know?</h3>
+                    <p>Automation can save up to <strong>30% on electricity bills</strong> in schools by preventing lights and fans from being left on accidentally.</p>
+                </div>
+
+                <!-- Case Study -->
+                <div class="neumorphic-card case-study-card" data-reveal>
+                    <div class="card-tag">CASE STUDY</div>
+                    <h2>Faro Barcelona</h2>
+                    <p>Ceiling fans in schools using automated control systems to optimize airflow and energy consumption based on occupancy.</p>
+                    <button class="btn-secondary">READ MORE</button>
+                </div>
+
+                <!-- Nature/Body Section -->
+                <div class="glass-card full-width" data-reveal>
+                    <div class="card-tag">NATURAL AUTOMATION</div>
+                    <div class="comparative-grid">
+                        <div class="info-block">
+                            <i data-lucide="heart"></i>
+                            <h4>Human Body</h4>
+                            <p>Functions like heartbeat, breathing, and digestion happen automatically using nerve signals and hormones.</p>
+                            <div class="mini-fact">Human heart beats ~100k times daily.</div>
+                        </div>
+                        <div class="info-block">
+                            <i data-lucide="sun"></i>
+                            <h4>Nature</h4>
+                            <p>Sunrise, sunset, the water cycle, and animal migration operate independently based on natural signals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Gallery -->
+        <section class="gallery-section" data-reveal>
+            <div class="section-header">
+                <h2>VISUAL ARCHIVE</h2>
+                <div class="slider-controls">
+                    <button class="slider-arrow prev"><i data-lucide="chevron-left"></i></button>
+                    <button class="slider-arrow next"><i data-lucide="chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="gallery-slider">
+                <div class="gallery-item glass-card card-reveal">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=500" alt="Circuits">
+                    <div class="gallery-overlay">CIRCUITRY_ALPHA</div>
+                </div>
+                <div class="gallery-item glass-card card-reveal">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=500" alt="Tech">
+                    <div class="gallery-overlay">SYSTEM_CORE</div>
+                </div>
+                <div class="gallery-item glass-card card-reveal">
+                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=500" alt="Robotics">
+                    <div class="gallery-overlay">AUTOMATA_01</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bottom-nav glass">
+        <div class="footer-links">
+            <button class="footer-link"><i data-lucide="home"></i></button>
+            <button class="footer-link"><i data-lucide="layers"></i></button>
+            <button class="footer-link"><i data-lucide="settings"></i></button>
+            <button class="footer-link"><i data-lucide="help-circle"></i></button>
+        </div>
+        <div class="footer-actions">
+            <button class="btn-next">NEXT CHAPTER <i data-lucide="arrow-right"></i></button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
